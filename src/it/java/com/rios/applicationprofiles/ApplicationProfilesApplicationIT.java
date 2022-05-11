@@ -6,7 +6,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 
 @SpringBootTest
-@ActiveProfiles({"default", "it"})
+@ActiveProfiles({"default", "test"})
 class ApplicationProfilesApplicationIT {
 
 	@Test
